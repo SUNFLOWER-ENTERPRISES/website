@@ -2,51 +2,68 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #333;
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #35424a;
-    color: white;
-    padding: 10px;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-nav ul {
+header {
+    background: #50b3a2;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
     padding: 0;
     margin: 0;
     list-style: none;
     overflow: hidden;
+    text-align: right;
 }
 
-nav ul li {
+header li {
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
+header #branding {
+    float: left;
 }
 
-main {
-    padding: 30px;
+header h1 {
+    margin: 0;
 }
 
-h1, h2 {
-    color: #35424a;
+.banner {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px 0;
 }
 
-.service {
-    background: #e2e2e2;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
+.banner h2 {
+    font-size: 2.5rem;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #35424a;
+    padding: 30px;
+    background-color: #50b3a2;
     color: white;
 }
