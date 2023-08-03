@@ -2,14 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
     color: #333;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
 }
 
 header {
@@ -39,29 +32,14 @@ header nav ul li a {
 
 .banner {
     background: #50b3a2;
-    color: white;
+    color: white; /* Texto blanco */
     padding: 100px 0;
     text-align: center;
 }
 
-.banner h2 {
-    font-size: 2.5rem;
-}
-
-.service {
-    background: #f4f4f4;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-}
-
-.footer {
+footer {
     text-align: center;
     padding: 30px;
     background-color: #35424a;
     color: white;
-}
-
-footer p {
-    margin: 0;
 }
