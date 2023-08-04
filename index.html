@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunflower Enterprises Holding & Consulting, S.L.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
@@ -15,13 +16,13 @@
         }
 
         header {
-            background: #ffffff;
+            background: white;
             color: #333;
             padding: 15px;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         #logo {
@@ -52,11 +53,13 @@
         }
 
         .banner {
-            background: #f0e68c;
-            color: #333;
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #000000;
             padding: 150px 0;
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
         }
 
         .section {
@@ -67,8 +70,38 @@
             border-bottom: 1px solid #f0f0f0;
         }
 
-        h2 {
+        .qualities {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .quality {
+            width: 200px;
+            padding: 20px;
+            background: #f0f0f0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .quality h3 {
             color: #ff9800;
+        }
+
+        .holding-section {
+            background: #f9f9f9;
+            padding: 80px;
+            text-align: center;
+            font-size: 1.1rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .holding-section h3, .holding-section p {
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
         }
 
         footer {
@@ -93,12 +126,13 @@
                 padding: 5px;
             }
 
-            .banner {
-                padding: 100px 0;
+            .qualities {
+                flex-direction: column;
             }
 
-            .section {
-                padding: 60px;
+            .quality {
+                width: 80%;
+                margin: 20px auto;
             }
         }
     </style>
@@ -110,7 +144,8 @@
             <ul>
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#services">Servicios</a></li>
-                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#qualities">Bondades</a></li>
+                <li><a href="#holding">Holding</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
@@ -121,19 +156,38 @@
         </section>
         <section id="services" class="section">
             <h2>Servicios</h2>
-            <p>Tecnología, Negocios, Marketing</p>
+            <p>Ofrecemos soluciones líderes en Tecnología, Negocios y Marketing, brindando un enfoque integral y personalizado a su empresa.</p>
         </section>
-        <section id="about" class="section">
-            <h2>Nosotros</h2>
-            <p>Sunflower Enterprises es una empresa líder en el mercado español. Nos encontramos en Paseo de Gracia número 53 en Barcelona 08007. Somos un holding que agrupa varias empresas en todo el mundo.</p>
+        <section id="qualities" class="section">
+            <h2>Nuestras Bondades</h2>
+            <div class="qualities">
+                <div class="quality">
+                    <h3>Seriedad</h3>
+                    <p>Compromiso y profesionalismo en cada proyecto.</p>
+                </div>
+                <div class="quality">
+                    <h3>Eficiencia</h3>
+                    <p>Optimización de recursos y resultados de alta calidad.</p>
+                </div>
+                <div class="quality">
+                    <h3>Establecida</h3>
+                    <p>Con presencia en todo el mundo, somos una marca de confianza.</p>
+                </div>
+            </div>
+        </section>
+        <section id="holding" class="holding-section">
+            <h2>Holding</h2>
+            <p>Sunflower Enterprises es un holding que agrupa varias empresas líderes en distintos mercados. Nos encontramos en Paseo de Gracia número 53 en Barcelona 08007, con una presencia global en tecnología, negocios y marketing.</p>
         </section>
         <section id="contact" class="section">
             <h2>Contacto</h2>
-            <p>Para más información, contáctanos.</p>
+            <p>Para más información, contáctanos. Estamos aquí para ayudarte a transformar tu negocio.</p>
         </section>
     </main>
     <footer>
-        <p>© 2023 Sunflower Enterprises Holding & Consulting, S.L.</p>
+        <p>© 2023 Sunflower Enterprises Holding & Consulting, S.L. | Teléfono: +34 123 456 789 | Email: info@sunflowerenterprises.com</p>
     </footer>
 </body>
 </html>
+
+       
