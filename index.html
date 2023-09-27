@@ -5,162 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Consultoría profesional en Barcelona con alcance global en tecnología, negocios y marketing.">
     <title>Sunflower Enterprises Holding & Consulting, S.L.</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f4f4f4;
             color: #333;
-            line-height: 1.6;
         }
 
         header {
-            background: #ffffff;
-            color: #333;
-            padding: 15px;
+            background: #2c3e50;
+            padding: 20px;
             display: flex;
             align-items: center;
-            flex-wrap: wrap;
+            justify-content: space-between;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         #logo {
             height: 60px;
-            margin-right: 20px;
-        }
-
-        nav {
-            flex-grow: 1;
         }
 
         nav ul {
             padding: 0;
             margin: 0;
             list-style: none;
-            text-align: right;
         }
 
         nav ul li {
             display: inline;
-            padding: 10px;
+            margin-left: 20px;
         }
 
         nav ul li a {
-            color: #333;
+            color: #ecf0f1;
             text-decoration: none;
             font-weight: bold;
-            padding: 5px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
+            transition: color 0.3s;
         }
 
         nav ul li a:hover {
-            background-color: #ddd;
+            color: #3498db;
         }
 
         .banner {
             background-image: url('banner.jpg');
             background-size: cover;
             background-position: center;
-            color: #ffffff;
+            color: #ecf0f1;
             padding: 150px 0;
             text-align: center;
-            font-size: 1.4rem;
         }
 
         .section {
-            padding: 80px;
-            text-align: center;
-            font-size: 1.1rem;
+            padding: 80px 20px;
             background: #ffffff;
-            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .section h2, .section p {
+            text-align: center;
         }
 
         .qualities {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+            margin-top: 40px;
         }
 
         .quality {
-            width: 200px;
+            background: #ecf0f1;
             padding: 20px;
-            background: #f0f0f0;
+            border-radius: 8px;
+            width: 30%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 20px;
             text-align: center;
-            border-radius: 10px;
+        }
+
+        .quality h3 {
+            margin-top: 0;
         }
 
         .holding-section {
-            background: #f9f9f9;
-            padding: 80px;
-            text-align: center;
-            font-size: 1.1rem;
-            border-bottom: 1px solid #f0f0f0;
+            padding: 80px 20px;
+            background: #f4f4f4;
         }
 
-        .holding-section h3, .holding-section p {
-            text-align: left;
-            max-width: 800px;
-            margin: auto;
+        .holding-section h2, .holding-section p {
+            text-align: center;
         }
 
         footer {
+            background: #2c3e50;
+            color: #ecf0f1;
             text-align: center;
-            padding: 30px;
-            background-color: #333;
-            color: white;
-            font-size: 0.9rem;
+            padding: 20px;
+            position: relative;
         }
 
-        /* Responsive design adjustments */
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
         @media screen and (max-width: 768px) {
-            header, nav ul li, .qualities, .quality {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            #logo, nav ul li {
-                margin: 10px auto;
-            }
-
-            .quality {
-                width: 80%;
-                margin: 20px auto;
+            .qualities, .quality {
+                width: 100%;
+                margin: 10px 0;
             }
         }
 
-        @media screen and (max-width: 600px) {
-            #logo {
-                height: 40px;
-                margin: 10px auto;
-            }
-            
-            header {
-                padding: 10px;
-                flex-direction: column;
-            }
-
-            nav ul {
-                text-align: center;
-            }
-
-            .banner {
-                padding: 70px 20px;
-            }
-
-            .section {
-                padding: 40px 20px;
-            }
-
-            footer {
-                padding: 20px;
-                font-size: 0.8rem;
-            }
-        }
     </style>
 </head>
 <body>
@@ -212,9 +170,7 @@
     </main>
     <footer>
         <p>© 2023 Sunflower Enterprises Holding & Consulting, S.L. | Teléfono: +34 662539329 | Email: info@sunflowerenterprises.com</p>
-        </div>
+        <p><a href="politicas-de-privacidad.html">Políticas de Privacidad</a> | <a href="terminos-y-condiciones.html">Términos y Condiciones</a></p>
     </footer>
 </body>
 </html>
-
-       
