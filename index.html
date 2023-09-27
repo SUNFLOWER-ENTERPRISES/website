@@ -4,62 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunflower Enterprises Holding & Consulting, S.L.</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header, footer {
-            background-color: #2c3e50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        .section {
-            background-color: white;
-            margin: 10px 0;
-            padding: 20px;
-            border-radius: 8px;
-        }
-
-        .quality {
-            border: 1px solid #ddd;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 10px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-        <header>
-        <img src="logo.jpg" alt="Logo de Sunflower Enterprises" id="logo">
+    <header class="bg-dark text-white p-4">
+        <img src="logo.jpg" alt="Logo de Sunflower Enterprises" id="logo" class="img-fluid">
         <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#qualities">Ventajas</a></li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#contact">Contacto</a></li>
+            <ul class="nav justify-content-end">
+                <li class="nav-item"><a href="#home" class="nav-link text-white">Inicio</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link text-white">Servicios</a></li>
+                <li class="nav-item"><a href="#qualities" class="nav-link text-white">Ventajas</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link text-white">Sobre Nosotros</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link text-white">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="home" class="banner">
+    <main class="p-4">
+        <section id="home" class="banner my-4">
             <h1>Consultoría Profesional en Tecnología, Negocios y Marketing</h1>
             <p>Somos Sunflower Enterprises Holding & Consulting, S.L., una firma consultora con sede en Barcelona, dedicada a proporcionar soluciones innovadoras y estratégicas a empresas en todo el mundo. Estamos registrados en el Registro Mercantil, lo que respalda nuestra seriedad y compromiso profesional.</p>
         </section>
-        <section id="services" class="section">
+         <section id="services" class="section">
             <h2>Nuestros Servicios</h2>
             <p>Nuestro equipo de expertos ofrece una gama diversa de servicios de consultoría que incluyen análisis de mercado, estudios de factibilidad, asesoramiento en políticas financieras y estrategias de comunicación interna. Trabajamos estrechamente con nuestros clientes para entender sus necesidades y proporcionar soluciones personalizadas que impulsen el crecimiento y el éxito de su negocio.</p>
         </section>
@@ -89,9 +54,12 @@
             <p>Para más información, contáctanos. Estamos aquí para ayudarte a transformar tu negocio.</p>
         </section>
     </main>
-    <footer>
+    <footer class="bg-dark text-white p-4">
         <p>© 2023 Sunflower Enterprises Holding & Consulting, S.L. | Teléfono: +34 662539329 | Email: info@sunflowerenterprises.com</p>
-        <p><a href="politicas-de-privacidad.html">Políticas de Privacidad</a> | <a href="terminos-y-condiciones.html">Términos y Condiciones</a></p>
+        <p><a href="politicas-de-privacidad.html" class="text-white">Políticas de Privacidad</a> | <a href="terminos-y-condiciones.html" class="text-white">Términos y Condiciones</a></p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
